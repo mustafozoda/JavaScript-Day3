@@ -117,5 +117,9 @@ It's worth noting that the temporal dead zone only affects `let` and `const` dec
 
 ## **Recursion**
 ***
+![](/img/recursion-js.png)
+
+
 ## **Closure**
 ***
+![](/img/cl.jpg)
