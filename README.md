@@ -81,13 +81,13 @@ Hoisting is a JavaScript mechanism where variable declarations and function decl
 ***
 <br>
 
-- [ **Hoisting - Function Declaration**](#hoisting-function-declaration)
-- [ **Hoisting - Variable**](#hoisting-variable)
+- [ **Hoisting-Function Declaration**](#hoisting-function-declaration)
+- [ **Hoisting-Variable**](#hoisting-variable)
 - [ **Temporal dead zone, let and const**](#temporal-dead-zone-let-and-const)
 
 <br>
 
-- ## **Hoisting - Function Declaration**
+- ## **Hoisting-Function Declaration**
 ***
 Function Hoisting is a behavior in JavaScript where function declarations are moved to the top of their respective scopes during code execution, regardless of where the actual declaration appears in the code. This means that you can call a function before it has been declared, and the JavaScript engine will still be able to execute it without throwing an error.
 
@@ -95,11 +95,11 @@ Note that function expressions (functions assigned to variables) are not hoisted
 
 <br>
 
-- ## **Hoisting - Variable**
+- ## **Hoisting-Variable**
 ***
 Variable hoisting is a behavior in JavaScript where variable declarations are moved to the top of their respective scopes during code execution. This means that you can use a variable before it has been declared, and the JavaScript engine will still be able to execute it without throwing an error.
 
-However, it's important to note that only the declaration (the var keyword) is hoisted, not the initialization. So even though you can use a variable before it is declared, if you try to use it before it is assigned a value, you will get undefined:
+However, it's important to note that only the declaration (the `var` keyword) is hoisted, not the initialization. So even though you can use a variable before it is declared, if you try to use it before it is assigned a value, you will get undefined:
 
 <br>
 

@@ -1,4 +1,29 @@
 * {
   padding: 0;
   margin: 0;
+}
+
+section nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 8vh;
+  background-color: rgb(118, 118, 118);
+}
+section nav .left-section {
+  display: flex;
+  gap: 2vw;
+  padding-left: 1.8vw;
+}
+section nav .left-section a {
+  text-decoration: none;
+  font-size: 20px;
+  color: aliceblue;
+}
+section nav .right-section a {
+  padding-right: 1.8vw;
+  text-decoration: none;
+  font-size: 30px;
+  color: aliceblue;
 }/*# sourceMappingURL=style.css.map */
